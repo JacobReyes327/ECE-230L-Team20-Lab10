@@ -12,6 +12,8 @@ In this lab, you’ve learned about edge sensitive circuits and explored some of
 | Question 3 | Your answers to the question | 25% |
 
 ## Lab Questions
+### Lab Summary
+In this lab we designed three different kinds of flip-flops. We initally started by building a D-flip-flop, and 
 
 ### What is different between edge and level sensitive circuits?
 
