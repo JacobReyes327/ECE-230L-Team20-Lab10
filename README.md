@@ -19,6 +19,7 @@ In this lab we designed three different kinds of flip-flops. We initally started
 An edge trigger only records data when the clock switches from 0 to 1 or 1 to 0 (or both cases if need be) depending on which version of an edge trigger you are working with. A level trigger records data the entire time the clock is active (or inactive if you wanted to do that I guess).
 
 ### Why is it important to declare initial state?
+An initial state allows for the FPGA to know the state of various pieces of memory should be upon being programmed. Without it, the initial states would be chosen randomly and the results would not be predictable.
 
 ### What do edge sensitive circuits let us build?
 Edge sensitive triggers allow us to build so many things related to memory and anything that might require a stable signal (most computer systems for instance).
